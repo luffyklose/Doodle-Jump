@@ -1,0 +1,171 @@
+\hypertarget{class_game_object}{}\doxysection{Game\+Object Class Reference}
+\label{class_game_object}\index{GameObject@{GameObject}}
+
+
+{\ttfamily \#include $<$Game\+Object.\+h$>$}
+
+Inheritance diagram for Game\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_game_object}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_object_a0348e3ee2e83d56eafca7a3547f432c4}{Game\+Object}} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_game_object_ab82dfdb656f9051c0587e6593b2dda97}{$\sim$\+Game\+Object}} ()
+\begin{DoxyCompactList}\small\item\em default destructor \end{DoxyCompactList}\item 
+Ogre\+::\+Scene\+Node $\ast$ \mbox{\hyperlink{class_game_object_a2a04358d05ba42dc685086c18b32a8c9}{Get\+Attached\+Scene\+Node}} ()
+\begin{DoxyCompactList}\small\item\em get attached scene node \end{DoxyCompactList}\item 
+Ogre\+::\+Entity $\ast$ \mbox{\hyperlink{class_game_object_a2dab73dd0b60821a30ab475e27582ced}{Get\+Entity}} ()
+\begin{DoxyCompactList}\small\item\em get entity \end{DoxyCompactList}\item 
+Ogre\+::\+Vector3 \mbox{\hyperlink{class_game_object_ae1b8f860867e0ca8d2b569a50918f283}{Get\+Scale}} ()
+\begin{DoxyCompactList}\small\item\em get scale \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a04fe9afe3e01032ac5e75d06e06d5030}{Set\+Scene\+Node}} (Scene\+Node $\ast$node)
+\begin{DoxyCompactList}\small\item\em set scene node \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a0d4df5eb686abee0d5737ca65e5cfa20}{Set\+Entity}} (Entity $\ast$en)
+\begin{DoxyCompactList}\small\item\em set entity \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_object_a015cbab2150bcb9d30473651928b3d69}{Set\+Scale}} (Ogre\+::\+Vector3 scale)
+\begin{DoxyCompactList}\small\item\em set scale \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{class_game_object_a1173a94f187d10a39777398672c187c7}{frame\+Started}} (const Ogre\+::\+Frame\+Event \&evt)=0
+\begin{DoxyCompactList}\small\item\em update \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_game_object_a0348e3ee2e83d56eafca7a3547f432c4}\label{class_game_object_a0348e3ee2e83d56eafca7a3547f432c4}} 
+\index{GameObject@{GameObject}!GameObject@{GameObject}}
+\index{GameObject@{GameObject}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{GameObject()}{GameObject()}}
+{\footnotesize\ttfamily Game\+Object\+::\+Game\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+default constructor 
+
+\mbox{\Hypertarget{class_game_object_ab82dfdb656f9051c0587e6593b2dda97}\label{class_game_object_ab82dfdb656f9051c0587e6593b2dda97}} 
+\index{GameObject@{GameObject}!````~GameObject@{$\sim$GameObject}}
+\index{````~GameObject@{$\sim$GameObject}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{$\sim$GameObject()}{~GameObject()}}
+{\footnotesize\ttfamily Game\+Object\+::$\sim$\+Game\+Object (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+default destructor 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_object_a1173a94f187d10a39777398672c187c7}\label{class_game_object_a1173a94f187d10a39777398672c187c7}} 
+\index{GameObject@{GameObject}!frameStarted@{frameStarted}}
+\index{frameStarted@{frameStarted}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{frameStarted()}{frameStarted()}}
+{\footnotesize\ttfamily virtual bool Game\+Object\+::frame\+Started (\begin{DoxyParamCaption}\item[{const Ogre\+::\+Frame\+Event \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+update 
+
+
+\begin{DoxyParams}{Parameters}
+{\em evt} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_doodle_aeeab74760183d19947335e21d3a878f6}{Doodle}}, and \mbox{\hyperlink{class_platform_a0eb9db85c4d1e89499b305c8a6fb6985}{Platform}}.
+
+\mbox{\Hypertarget{class_game_object_a2a04358d05ba42dc685086c18b32a8c9}\label{class_game_object_a2a04358d05ba42dc685086c18b32a8c9}} 
+\index{GameObject@{GameObject}!GetAttachedSceneNode@{GetAttachedSceneNode}}
+\index{GetAttachedSceneNode@{GetAttachedSceneNode}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{GetAttachedSceneNode()}{GetAttachedSceneNode()}}
+{\footnotesize\ttfamily Ogre\+::\+Scene\+Node $\ast$ Game\+Object\+::\+Get\+Attached\+Scene\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get attached scene node 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_object_a2dab73dd0b60821a30ab475e27582ced}\label{class_game_object_a2dab73dd0b60821a30ab475e27582ced}} 
+\index{GameObject@{GameObject}!GetEntity@{GetEntity}}
+\index{GetEntity@{GetEntity}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{GetEntity()}{GetEntity()}}
+{\footnotesize\ttfamily Ogre\+::\+Entity $\ast$ Game\+Object\+::\+Get\+Entity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get entity 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_object_ae1b8f860867e0ca8d2b569a50918f283}\label{class_game_object_ae1b8f860867e0ca8d2b569a50918f283}} 
+\index{GameObject@{GameObject}!GetScale@{GetScale}}
+\index{GetScale@{GetScale}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{GetScale()}{GetScale()}}
+{\footnotesize\ttfamily Ogre\+::\+Vector3 Game\+Object\+::\+Get\+Scale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get scale 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_object_a0d4df5eb686abee0d5737ca65e5cfa20}\label{class_game_object_a0d4df5eb686abee0d5737ca65e5cfa20}} 
+\index{GameObject@{GameObject}!SetEntity@{SetEntity}}
+\index{SetEntity@{SetEntity}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{SetEntity()}{SetEntity()}}
+{\footnotesize\ttfamily void Game\+Object\+::\+Set\+Entity (\begin{DoxyParamCaption}\item[{Entity $\ast$}]{en }\end{DoxyParamCaption})}
+
+
+
+set entity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em en} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_object_a015cbab2150bcb9d30473651928b3d69}\label{class_game_object_a015cbab2150bcb9d30473651928b3d69}} 
+\index{GameObject@{GameObject}!SetScale@{SetScale}}
+\index{SetScale@{SetScale}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{SetScale()}{SetScale()}}
+{\footnotesize\ttfamily void Game\+Object\+::\+Set\+Scale (\begin{DoxyParamCaption}\item[{Ogre\+::\+Vector3}]{scale }\end{DoxyParamCaption})}
+
+
+
+set scale 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scale} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_object_a04fe9afe3e01032ac5e75d06e06d5030}\label{class_game_object_a04fe9afe3e01032ac5e75d06e06d5030}} 
+\index{GameObject@{GameObject}!SetSceneNode@{SetSceneNode}}
+\index{SetSceneNode@{SetSceneNode}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{SetSceneNode()}{SetSceneNode()}}
+{\footnotesize\ttfamily void Game\+Object\+::\+Set\+Scene\+Node (\begin{DoxyParamCaption}\item[{Scene\+Node $\ast$}]{node }\end{DoxyParamCaption})}
+
+
+
+set scene node 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_game_object_8h}{Game\+Object.\+h}}\item 
+\mbox{\hyperlink{_game_object_8cpp}{Game\+Object.\+cpp}}\end{DoxyCompactItemize}

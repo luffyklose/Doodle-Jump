@@ -1,0 +1,15 @@
+﻿  BackgroundImage.cpp
+E:\C++项目\2021 Fall\Game Engine Development\GAME3121-Assignment-2\OrgreTemplateV2\Doodle.h(2,10): fatal error C1083: Cannot open include file: 'OgreTrays.h': No such file or directory
+  Doodle.cpp
+E:\C++项目\2021 Fall\Game Engine Development\GAME3121-Assignment-2\OrgreTemplateV2\Doodle.h(2,10): fatal error C1083: Cannot open include file: 'OgreTrays.h': No such file or directory
+  Game.cpp
+E:\C++项目\2021 Fall\Game Engine Development\GAME3121-Assignment-2\OrgreTemplateV2\Doodle.h(2,10): fatal error C1083: Cannot open include file: 'OgreTrays.h': No such file or directory
+  GameObject.cpp
+E:\C++项目\2021 Fall\Game Engine Development\GAME3121-Assignment-2\OrgreTemplateV2\GameObject.h(2,10): fatal error C1083: Cannot open include file: 'Ogre.h': No such file or directory
+  main.cpp
+E:\C++项目\2021 Fall\Game Engine Development\GAME3121-Assignment-2\OrgreTemplateV2\Doodle.h(2,10): fatal error C1083: Cannot open include file: 'OgreTrays.h': No such file or directory
+  Platform.cpp
+E:\C++项目\2021 Fall\Game Engine Development\GAME3121-Assignment-2\OrgreTemplateV2\GameObject.h(2,10): fatal error C1083: Cannot open include file: 'Ogre.h': No such file or directory
+  SoundManager.cpp
+E:\C++项目\2021 Fall\Game Engine Development\GAME3121-Assignment-2\OrgreTemplateV2\SoundManager.h(2,10): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+  Generating Code...

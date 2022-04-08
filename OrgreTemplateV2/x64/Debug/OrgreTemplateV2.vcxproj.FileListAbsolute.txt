@@ -1,0 +1,5 @@
+C:\Hooman\GBC\GAME3121\Week1\Week1\OrgreTemplateV2\x64\Debug\OrgreTemplateV2.exe
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\OrgreTemplateV2\OrgreTemplateV2\x64\Debug\OrgreTemplateV2.exe
+E:\Courseware\2021 Fall\Game Engine Development\OrgreTemplateV2\OrgreTemplateV2\x64\Debug\OrgreTemplateV2.exe
+E:\C++项目\2021 Fall\Game Engine Development\GAME3121-Assignment-1\OrgreTemplateV2\x64\Debug\Assignment 1.exe
+E:\C++项目\2021 Fall\Game Engine Development\GAME3121-Assignment-2\OrgreTemplateV2\x64\Debug\Assignment 2.exe

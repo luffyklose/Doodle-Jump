@@ -1,0 +1,107 @@
+\hypertarget{_doodle_8h_source}{}\doxysection{Doodle.\+h}
+\mbox{\hyperlink{_doodle_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include <OgreTrays.h>}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_game_object_8h}{GameObject.h}}"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_platform_8h}{Platform.h}}"{}}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{class }\mbox{\hyperlink{class_doodle}{Doodle}} :}
+\DoxyCodeLine{8     \textcolor{keyword}{public} \mbox{\hyperlink{class_game_object}{GameObject}}}
+\DoxyCodeLine{9 \{}
+\DoxyCodeLine{10 \textcolor{keyword}{private}:}
+\DoxyCodeLine{11     SceneNode* cameraNode;}
+\DoxyCodeLine{12     Camera* camera;}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{17     \textcolor{keywordtype}{bool} m\_bIsColliding;}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{22     \textcolor{keywordtype}{float} cameraPlayerDistanceLimit = 100.0f;}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{27     \textcolor{keywordtype}{float} distanceFromCameraToPlayerZAxis;}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{32     \textcolor{keywordtype}{float} playerDiedZValue;}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{37     \textcolor{keywordtype}{bool} isFacingLeft;}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{42     \textcolor{keywordtype}{int} m\_iLivesRemaining;}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{47     \textcolor{keywordtype}{int} m\_iScore;}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{52     \textcolor{keywordtype}{bool} m\_bGameOver;}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{57     \textcolor{keywordtype}{bool} m\_bGameWon;}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{62     \textcolor{keywordtype}{float} m\_fTotalGameTime;}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{67     \textcolor{keywordtype}{float} m\_velocityX;}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{72     \textcolor{keywordtype}{float} m\_velocityZ;}
+\DoxyCodeLine{73 }
+\DoxyCodeLine{77     Label* m\_scoreLabel;}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{82     Label* m\_liveLabel;}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{84 \textcolor{keyword}{public}:}
+\DoxyCodeLine{88     \mbox{\hyperlink{class_doodle_a48b2ce4e023051bdbda64fda966c621f}{Doodle}}();}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{95     \mbox{\hyperlink{class_doodle_a48b2ce4e023051bdbda64fda966c621f}{Doodle}}(Ogre::SceneNode* node, Ogre::SceneManager* scnMgr);}
+\DoxyCodeLine{96 }
+\DoxyCodeLine{97     \mbox{\hyperlink{class_doodle_a2f77f21d85c97d0ab7f7c569e05229fc}{\string~Doodle}}();}
+\DoxyCodeLine{98 }
+\DoxyCodeLine{103     Camera* \mbox{\hyperlink{class_doodle_a10595eb9b522632c479b5bc7ad06e667}{GetPlayerCamera}}();}
+\DoxyCodeLine{104 }
+\DoxyCodeLine{109     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_doodle_aa91f6eb1bfab15e0ace74dc05790b9ad}{GetScore}}();}
+\DoxyCodeLine{110 }
+\DoxyCodeLine{115     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_doodle_ab9c8c6a8a0042c4a676ba514d5bad3fe}{GetLivesRemaining}}();}
+\DoxyCodeLine{116 }
+\DoxyCodeLine{121     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_doodle_a30d8019c8d422d0a0ecf76eedfae0ae6}{GetIsFacingLeft}}();}
+\DoxyCodeLine{122 }
+\DoxyCodeLine{127     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_doodle_a342f4bcd08969dcff07933ed2a15f655}{GetGameOver}}();}
+\DoxyCodeLine{128 }
+\DoxyCodeLine{133     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_doodle_ac670c1e33f04ca063401d28cd2d677cf}{GetGameWon}}();}
+\DoxyCodeLine{134 }
+\DoxyCodeLine{139     \textcolor{keywordtype}{float} \mbox{\hyperlink{class_doodle_a4c34bc63d6949a60917dd0965e9021c5}{GetVelocityX}}();}
+\DoxyCodeLine{140 }
+\DoxyCodeLine{145     \textcolor{keywordtype}{float} \mbox{\hyperlink{class_doodle_a98882c9b0a79e2365329aa906f3ac236}{GetVelocityZ}}();}
+\DoxyCodeLine{146 }
+\DoxyCodeLine{151     SceneNode* \mbox{\hyperlink{class_doodle_a4bc8a8c5ddb9b9ee4050c3756fcc1aa7}{GetCameraNode}}();}
+\DoxyCodeLine{152 }
+\DoxyCodeLine{157     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_ad26deb4e47e5371387d93ef1ad10bf0f}{SetScore}}(\textcolor{keywordtype}{int} score);}
+\DoxyCodeLine{158 }
+\DoxyCodeLine{163     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_ac8c7a4e124d64150eb4d9972bd6dfcec}{SetLivesRemaining}}(\textcolor{keywordtype}{int} livesRemaining);}
+\DoxyCodeLine{164 }
+\DoxyCodeLine{169     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_a81236d105fd74f4da8608336f952d194}{SetIsFacingLeft}}(\textcolor{keywordtype}{bool} dir);}
+\DoxyCodeLine{170 }
+\DoxyCodeLine{175     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_a3db8cca76174f6f344c54d9c8755ed81}{SetGameOver}}(\textcolor{keywordtype}{bool} m\_bGameOver);}
+\DoxyCodeLine{176 }
+\DoxyCodeLine{181     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_ab259127f99dea81ddfb819196117989a}{SetGameWon}}(\textcolor{keywordtype}{bool} m\_bGameWon);}
+\DoxyCodeLine{182 }
+\DoxyCodeLine{187     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_ab076ac0d9b2931d4869a7720f04c32f5}{SetVelocityX}}(\textcolor{keywordtype}{float} velocityX);}
+\DoxyCodeLine{188 }
+\DoxyCodeLine{193     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_ab492f102feca341902517de9f18c445a}{SetVelocityZ}}(\textcolor{keywordtype}{float} velocityZ);}
+\DoxyCodeLine{194 }
+\DoxyCodeLine{199     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_a354088eb02f21b4663a5f84d9e24ceb2}{SetLiveLabel}}(Label* label);}
+\DoxyCodeLine{200 }
+\DoxyCodeLine{205     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_a7e5952008444ae881e7f444f95fba288}{SetScoreLabel}}(Label* label);}
+\DoxyCodeLine{206 }
+\DoxyCodeLine{210     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_abbd10ed231bec49dd92fc976b32541aa}{CheckBounds}}();}
+\DoxyCodeLine{211 }
+\DoxyCodeLine{215     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_ac157b05cc54fa996d4a0a1e887194ace}{IncrementScore}}();}
+\DoxyCodeLine{216 }
+\DoxyCodeLine{220     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_ac6628c984cbf0455a58d80979cf101b6}{DecrementLivesRemaining}}();}
+\DoxyCodeLine{221 }
+\DoxyCodeLine{227     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_doodle_aeeab74760183d19947335e21d3a878f6}{frameStarted}}(\textcolor{keyword}{const} Ogre::FrameEvent\& evt);}
+\DoxyCodeLine{228 }
+\DoxyCodeLine{233     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_a8232f355b1fd351aa548b3064ffc7c92}{CheckForCollisionWithPlatform}}(\mbox{\hyperlink{class_platform}{Platform}}* platform);}
+\DoxyCodeLine{234 }
+\DoxyCodeLine{239     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_a86565529b1b63e5e8e318f17487425e1}{CreatePlayerCamera}}(Ogre::SceneManager* scnMgr);}
+\DoxyCodeLine{240 }
+\DoxyCodeLine{245     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_ae3a5730b8ff077cae0b19b133f5cef75}{UpdateCameraPosition}}(\textcolor{keyword}{const} Ogre::FrameEvent\& evt);}
+\DoxyCodeLine{246 }
+\DoxyCodeLine{251     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_a13bc75a1044faf92466383b33f976294}{UpdatePlayerDirection}}(\textcolor{keywordtype}{char} input);}
+\DoxyCodeLine{255     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_doodle_a6e57a9d99b0316fdbdbfb94b42d05687}{PlayerHitPlatform}}();}
+\DoxyCodeLine{256 \};}
+\DoxyCodeLine{257 }
+
+\end{DoxyCode}

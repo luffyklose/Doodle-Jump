@@ -1,0 +1,45 @@
+\hypertarget{_game_object_8h_source}{}\doxysection{Game\+Object.\+h}
+\mbox{\hyperlink{_game_object_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}Ogre.h"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}OgreInput.h"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{using namespace }Ogre;}
+\DoxyCodeLine{7 \textcolor{keyword}{using namespace }OgreBites;}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }\mbox{\hyperlink{class_game_object}{GameObject}} : \textcolor{keyword}{public} Ogre::FrameListener}
+\DoxyCodeLine{10 \{}
+\DoxyCodeLine{11 \textcolor{keyword}{private}:}
+\DoxyCodeLine{15     Ogre::SceneNode* m\_sceneNode;}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{20     Ogre::Entity* m\_mesh;}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{25     Ogre::Vector3 m\_scale;}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{keyword}{public}:}
+\DoxyCodeLine{31     \mbox{\hyperlink{class_game_object_a0348e3ee2e83d56eafca7a3547f432c4}{GameObject}}();}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{36     \mbox{\hyperlink{class_game_object_ab82dfdb656f9051c0587e6593b2dda97}{\string~GameObject}}();}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38     \textcolor{comment}{//Getter}}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{44     Ogre::SceneNode* \mbox{\hyperlink{class_game_object_a2a04358d05ba42dc685086c18b32a8c9}{GetAttachedSceneNode}}();}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{50     Ogre::Entity* \mbox{\hyperlink{class_game_object_a2dab73dd0b60821a30ab475e27582ced}{GetEntity}}();}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{56     Ogre::Vector3 \mbox{\hyperlink{class_game_object_ae1b8f860867e0ca8d2b569a50918f283}{GetScale}}();}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58     \textcolor{comment}{//Setters}}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{64     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_object_a04fe9afe3e01032ac5e75d06e06d5030}{SetSceneNode}}(SceneNode* node);}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{70     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_object_a0d4df5eb686abee0d5737ca65e5cfa20}{SetEntity}}(Entity* en);}
+\DoxyCodeLine{71 }
+\DoxyCodeLine{76     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_object_a015cbab2150bcb9d30473651928b3d69}{SetScale}}(Ogre::Vector3 scale);}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{83     \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_game_object_a1173a94f187d10a39777398672c187c7}{frameStarted}}(\textcolor{keyword}{const} Ogre::FrameEvent\& evt) = 0;}
+\DoxyCodeLine{84 \};}
+
+\end{DoxyCode}

@@ -1,0 +1,61 @@
+\hypertarget{_game_8h_source}{}\doxysection{Game.\+h}
+\mbox{\hyperlink{_game_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_background_image_8h}{BackgroundImage.h}}"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}Ogre.h"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}OgreApplicationContext.h"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}OgreInput.h"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}OgreRTShaderSystem.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}OgreTrays.h"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_doodle_8h}{Doodle.h}}"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_platform_8h}{Platform.h}}"{}}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{using namespace }Ogre;}
+\DoxyCodeLine{12 \textcolor{keyword}{using namespace }OgreBites;}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{17 \textcolor{keyword}{class }\mbox{\hyperlink{class_game}{Game}}}
+\DoxyCodeLine{18     : \textcolor{keyword}{public} ApplicationContext}
+\DoxyCodeLine{19     , \textcolor{keyword}{public} InputListener}
+\DoxyCodeLine{20 \{}
+\DoxyCodeLine{21 \textcolor{keyword}{private}:    }
+\DoxyCodeLine{22     SceneManager* scnMgr;}
+\DoxyCodeLine{23     Root* root;}
+\DoxyCodeLine{24     RTShader::ShaderGenerator* shadergen;}
+\DoxyCodeLine{25     OgreBites::TrayManager* mTrayMgr;}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{30     Label* m\_scoreLabel;}
+\DoxyCodeLine{34     Label* m\_liveLabel;}
+\DoxyCodeLine{38     Label* m\_timeLabel;}
+\DoxyCodeLine{42     Label* m\_frameLabel;}
+\DoxyCodeLine{46     Label* m\_gameOverLabel;}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{51     \mbox{\hyperlink{class_doodle}{Doodle}}* m\_doodle;}
+\DoxyCodeLine{55     std::vector<Platform*> m\_platformVec;}
+\DoxyCodeLine{56     \mbox{\hyperlink{class_background_image}{BackgroundImage}}* m\_backgroundImage[2];}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{61     \textcolor{keywordtype}{int} m\_lives = 5;}
+\DoxyCodeLine{65     \textcolor{keywordtype}{int} m\_score = 0;}
+\DoxyCodeLine{69     \textcolor{keywordtype}{int} m\_windowWidth;}
+\DoxyCodeLine{73     \textcolor{keywordtype}{int} m\_windowHeight;}
+\DoxyCodeLine{77     std::string m\_scoreText;}
+\DoxyCodeLine{81     std::string m\_liveText;}
+\DoxyCodeLine{85     std::string m\_FPSText;}
+\DoxyCodeLine{89     std::string m\_TimeText;}
+\DoxyCodeLine{90 }
+\DoxyCodeLine{91     \textcolor{keywordtype}{float} m\_randomPositionX = 0.0f;}
+\DoxyCodeLine{92     \textcolor{keywordtype}{int} m\_platformNumber = 15;}
+\DoxyCodeLine{93 \textcolor{keyword}{public}:}
+\DoxyCodeLine{97     \mbox{\hyperlink{class_game_ad59df6562a58a614fda24622d3715b65}{Game}}();}
+\DoxyCodeLine{101     \textcolor{keyword}{virtual} \mbox{\hyperlink{class_game_a72772b628443c3675976d6b5e6c9ec2a}{\string~Game}}() \{\}}
+\DoxyCodeLine{102     }
+\DoxyCodeLine{106     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_ae4618ba40eabbbe65e35f1bb239aa29b}{setup}}();}
+\DoxyCodeLine{112     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_game_a2ba00c3475d222573e5ad54b88b389b7}{keyPressed}}(\textcolor{keyword}{const} KeyboardEvent\& evt);}
+\DoxyCodeLine{113     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_game_a495b7d5ab243a04b0c5fc5e28c4f73b4}{keyReleased}}(\textcolor{keyword}{const} KeyboardEvent\& evt);}
+\DoxyCodeLine{117     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_acc39660fc2452fc78ca45330d6032e5c}{createScene}}();}
+\DoxyCodeLine{121     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_a73744fbffd68a0ebadfedcecbfff3236}{createCamera}}();}
+\DoxyCodeLine{127     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_game_af4a6a232da68068e26aa9e6ab802ebf1}{frameRenderingQueued}}(\textcolor{keyword}{const} FrameEvent\& evt);}
+\DoxyCodeLine{128     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_af5b56d4ec80bba41a21763b66603c0da}{createFrameListener}}();}
+\DoxyCodeLine{129 \};}
+
+\end{DoxyCode}

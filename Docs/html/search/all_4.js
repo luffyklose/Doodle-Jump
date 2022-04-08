@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['game_0',['Game',['../class_game.html',1,'Game'],['../class_game.html#ad59df6562a58a614fda24622d3715b65',1,'Game::Game()']]],
+  ['game_2ecpp_1',['Game.cpp',['../_game_8cpp.html',1,'']]],
+  ['game_2eh_2',['Game.h',['../_game_8h.html',1,'']]],
+  ['gameobject_3',['GameObject',['../class_game_object.html',1,'GameObject'],['../class_game_object.html#a0348e3ee2e83d56eafca7a3547f432c4',1,'GameObject::GameObject()']]],
+  ['gameobject_2ecpp_4',['GameObject.cpp',['../_game_object_8cpp.html',1,'']]],
+  ['gameobject_2eh_5',['GameObject.h',['../_game_object_8h.html',1,'']]],
+  ['getattachedscenenode_6',['GetAttachedSceneNode',['../class_game_object.html#a2a04358d05ba42dc685086c18b32a8c9',1,'GameObject']]],
+  ['getbackgroundstartingposition_7',['GetBackgroundStartingPosition',['../class_background_image.html#a24c930cbcaf9fcf83d89e91a5f3a455a',1,'BackgroundImage']]],
+  ['getbackgroundzextent_8',['GetBackgroundZExtent',['../class_background_image.html#ac7b7baca9c873027c5ec372f2175b367',1,'BackgroundImage']]],
+  ['getcameranode_9',['GetCameraNode',['../class_doodle.html#a4bc8a8c5ddb9b9ee4050c3756fcc1aa7',1,'Doodle']]],
+  ['getentity_10',['GetEntity',['../class_game_object.html#a2dab73dd0b60821a30ab475e27582ced',1,'GameObject']]],
+  ['getgameover_11',['GetGameOver',['../class_doodle.html#a342f4bcd08969dcff07933ed2a15f655',1,'Doodle']]],
+  ['getgamewon_12',['GetGameWon',['../class_doodle.html#ac670c1e33f04ca063401d28cd2d677cf',1,'Doodle']]],
+  ['getisfacingleft_13',['GetIsFacingLeft',['../class_doodle.html#a30d8019c8d422d0a0ecf76eedfae0ae6',1,'Doodle']]],
+  ['getlivesremaining_14',['GetLivesRemaining',['../class_doodle.html#ab9c8c6a8a0042c4a676ba514d5bad3fe',1,'Doodle']]],
+  ['getplayercamera_15',['GetPlayerCamera',['../class_doodle.html#a10595eb9b522632c479b5bc7ad06e667',1,'Doodle']]],
+  ['getpointearned_16',['GetPointEarned',['../class_platform.html#adb87a8cb65d293e8e22fa198e48837c0',1,'Platform']]],
+  ['getscale_17',['GetScale',['../class_game_object.html#ae1b8f860867e0ca8d2b569a50918f283',1,'GameObject']]],
+  ['getscore_18',['GetScore',['../class_doodle.html#aa91f6eb1bfab15e0ace74dc05790b9ad',1,'Doodle']]],
+  ['getvelocityx_19',['GetVelocityX',['../class_doodle.html#a4c34bc63d6949a60917dd0965e9021c5',1,'Doodle']]],
+  ['getvelocityz_20',['GetVelocityZ',['../class_doodle.html#a98882c9b0a79e2365329aa906f3ac236',1,'Doodle']]]
+];

@@ -1,0 +1,41 @@
+\hypertarget{_sound_manager_8h_source}{}\doxysection{Sound\+Manager.\+h}
+\mbox{\hyperlink{_sound_manager_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define SDL\_MAIN\_HANDLED}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <SDL\_mixer.h>}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{keyword}{enum} \mbox{\hyperlink{_sound_manager_8h_adfb4b3d4c43f1e78a1e95150ca37fd1e}{sound\_type}}}
+\DoxyCodeLine{6 \{}
+\DoxyCodeLine{7     \mbox{\hyperlink{_sound_manager_8h_adfb4b3d4c43f1e78a1e95150ca37fd1ea1b983b8b1663848b4a3d598f3e0f0eb1}{SOUND\_MUSIC}} = 0,}
+\DoxyCodeLine{8     \mbox{\hyperlink{_sound_manager_8h_adfb4b3d4c43f1e78a1e95150ca37fd1eaaa0a70ddaa3102f56f8aa3c334f8f8b1}{SOUND\_SFX}} = 1}
+\DoxyCodeLine{9 \};}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }\mbox{\hyperlink{class_sound_manager}{SoundManager}}}
+\DoxyCodeLine{12 \{}
+\DoxyCodeLine{13 \textcolor{keyword}{public}:}
+\DoxyCodeLine{17     \mbox{\hyperlink{class_sound_manager_abcc1fbf3488be5788a42c9a4fe56df35}{SoundManager}}();}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{22     \mbox{\hyperlink{class_sound_manager_ad5dbf8eab22db48ff8f3db51b02f8938}{\string~SoundManager}}();}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{30     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_sound_manager_a12d4e27f964f1c6ae225dfa9c775db27}{Load}}(\textcolor{keyword}{const} \textcolor{keywordtype}{char}* FileName, \mbox{\hyperlink{_sound_manager_8h_adfb4b3d4c43f1e78a1e95150ca37fd1e}{sound\_type}} type);}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{35     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sound_manager_a7a6f6debd680254bb6d30a13178ce807}{InitAll}}();}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sound_manager_ad9b40fb218d19d136a9995c15e323945}{PlayMusic}}(\textcolor{keyword}{const} \textcolor{keywordtype}{char}* FileName, \textcolor{keywordtype}{int} loop);}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{49     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sound_manager_a9802ed7b96068b53528500109dbfb0b6}{PlaySound}}(\textcolor{keyword}{const} \textcolor{keywordtype}{char}* FileName, \textcolor{keywordtype}{int} loop);}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{55     \textcolor{keyword}{static} \mbox{\hyperlink{class_sound_manager}{SoundManager}}* \mbox{\hyperlink{class_sound_manager_a17d37e7c4aafe07c857347ae28fbb33b}{Instance}}();}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{keyword}{private}:}
+\DoxyCodeLine{61     \textcolor{keywordtype}{int} CurrentVolume = MIX\_MAX\_VOLUME / 2;}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{66     Mix\_Music* pMusic = \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{71     Mix\_Chunk* pSound = \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{76     \textcolor{keyword}{static} \mbox{\hyperlink{class_sound_manager}{SoundManager}}* s\_pInstance;}
+\DoxyCodeLine{77 \};}
+
+\end{DoxyCode}
